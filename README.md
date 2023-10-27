@@ -12,6 +12,36 @@ To-Do сервис для создания списка задач. Реализ
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ### Как запустить проект:
+#### Запустить проект локально без Docker:
+  1. В директории `backend` создать виртуальное окружение.
+- Win:
+  ```
+  python -m venv venv
+  ```
+- Linux/MacOs:
+  ```
+  python3 -m venv venv
+  ```
+2. Активируйте виртуальное окружение.
+- Win:
+  ```
+  source venv/Scripts/activate
+  ```
+- Linux/MacOs:
+  ```
+  source venv/bib/activate
+  ```
+3. Установить зависимости.
+```
+pip install requirements.txt
+```
+4. Запустите исполняемый файл.
+```
+python mamage.py runserver
+```
+#### Запустить проект локально c Docker:
+...
+#### Запустить проект с помощью Docker на сервере:
 ...
 ### Контакты:
 **Евгений Ерохин**
